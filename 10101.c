@@ -6,7 +6,7 @@ int main()
     while(scanf("%lld",&n)!=EOF)
     {
         s++;
-        printf("%lld. ",s);
+        printf("%4lld. ",s);
         if(n==0)printf("0");
         else
         {
